@@ -9,6 +9,8 @@ namespace MoodAnalyserOfPerson
         public MoodAnalyser()
         {
         }
+        
+
 
         public MoodAnalyser(string Message)
         {
