@@ -1,5 +1,8 @@
 using NUnit.Framework;
 using MoodAnalyserOfPerson;
+using System;
+using System.Runtime.Serialization;
+
 namespace MoodAnalyserNUnitTest
 {
     public class Tests
@@ -31,6 +34,20 @@ namespace MoodAnalyserNUnitTest
             string message = moodAnalyser.AnalyseMood();
             Assert.AreEqual("HAPPY", message);
         }
+        public void Given_Message_WhenNull_Using_CustomException_Should_ReturnNullMood()
+        {
+            
+            try
+            {
+                moodAnalyser= new MoodAnalyser(null);
+                string message = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException exception)
+            {
+                Assert.AreEqual("Mood should not be null", exception.Message);
+            }
+        }
+
 
     }
 }
