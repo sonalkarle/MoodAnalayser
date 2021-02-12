@@ -10,3 +10,4 @@ C:\Users\User\source\repos\MoodAnalyser\MoodAnalyserDay10\MoodAnalayserDay10\Moo
 C:\Users\User\source\repos\MoodAnalyser\MoodAnalyserDay10\MoodAnalayserDay10\MoodAnalayserDay10\obj\Debug\netcoreapp3.1\MoodAnalayserDay10.dll
 C:\Users\User\source\repos\MoodAnalyser\MoodAnalyserDay10\MoodAnalayserDay10\MoodAnalayserDay10\obj\Debug\netcoreapp3.1\MoodAnalayserDay10.pdb
 C:\Users\User\source\repos\MoodAnalyser\MoodAnalyserDay10\MoodAnalayserDay10\MoodAnalayserDay10\obj\Debug\netcoreapp3.1\MoodAnalayserDay10.genruntimeconfig.cache
+C:\Users\User\source\repos\MoodAnalyser\MoodAnalyserDay10\MoodAnalayserDay10\MoodAnalayserDay10\obj\Debug\netcoreapp3.1\MoodAnalayserDay10.csprojAssemblyReference.cache
