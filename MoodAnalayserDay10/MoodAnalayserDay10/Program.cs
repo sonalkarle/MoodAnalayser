@@ -17,9 +17,17 @@ namespace MoodAnalyserOfPerson
 
         public string AnalyseMood()
         {
-            if (Message.ToLower().Contains("sad"))
-                return "SAD";
-            else return "HAPPY";
+            try
+            {
+                if (Message.ToLower().Contains("sad"))
+                    return "SAD";
+                else return "HAPPY";
+            }
+            catch (NullReferenceException)
+            {
+                return "HAPPY";
+            }
+
         }
         static void Main(string[] args)
         {
